@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.showFoldingControls": "always",
+  "editor.renderControlCharacters": false,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "prettier.eslintIntegration": true,
+  "files.trimTrailingWhitespace": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "git.enableSmartCommit": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
