@@ -14,6 +14,7 @@ cmd /c "%ConEmuDir%\..\git-for-windows\usr\bin\ssh [username]@[hostname] -i [ssh
 ```
   * [username] is `root`
   * [hostname] is the IP address e.g. `12.345.67.89`
-  * [sshkey] is the path of the ssh key on your computer e.g. `C:\Documents\Keys\mykey.ppk`
+  * [sshkey] is the path of the ssh key on your computer e.g. `C:\Documents\Keys\mykey`
+    * N.B. ssh key must be converted to open SSH file in putty-gen in order for it to work in Cmder - does not load .ppk files
   * [display] is the name you want to appear in the Cmder window
 7. Click `Save settings`
