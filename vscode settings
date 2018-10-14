@@ -14,6 +14,10 @@
     "editor.formatOnSave": false
   },
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "/k",
+    "C:\\Users\\david\\Downloads\\cmder\\vendor\\init.bat"
+  ],
   "git.enableSmartCommit": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
