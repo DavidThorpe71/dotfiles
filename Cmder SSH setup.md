@@ -8,6 +8,10 @@ Info from (https://medium.com/@erinus/cmder-setup-tasks-e5109bbb742b)
 1. In top left box type `ssh::` followed by the name you want to appear in the menu eg `root@my_website`
 1. In task parameters type `/icon"%CMDER_ROOT\icons\cmder.ico"` - this is to select the icon that shows in Cmder (can select a different icon if you like!)
 1. In main box type:
+```
+cmd /c "ssh [username]@[hostname] -i [sshkey]" -new_console:d:%USERPROFILE% "-new_console:t:[display]"
+```
+You may need to include path to ssh command:
    
 ```
 cmd /c "%ConEmuDir%\..\git-for-windows\usr\bin\ssh [username]@[hostname] -i [sshkey]" -new_console:d:%USERPROFILE% "-new_console:t:[display]"
